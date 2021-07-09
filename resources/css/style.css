@@ -123,3 +123,7 @@ li {
     height: 200px;
     width: 100%;
 }
+footer {
+    margin: 20px;
+    float: left;
+}
