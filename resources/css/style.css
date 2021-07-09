@@ -1,10 +1,35 @@
 html, body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
-    color: seashell;
+    color: grey;
     background-color: black;
     opacity: 0.9;
     text-align: center;
 }
+
+header {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+#logo {
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.navbar {
+    float: right;
+    margin-right: 2%;
+
+}
+
+li {
+    display: inline-block;
+    text-decoration: underline;
+}
+
 
 
