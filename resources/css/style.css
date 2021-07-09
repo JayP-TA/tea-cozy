@@ -116,3 +116,10 @@ li {
 .location-container h4 {
     line-height: px;
 }
+
+#contact {
+    position: relative;
+    top: 100px;
+    height: 200px;
+    width: 100%;
+}
