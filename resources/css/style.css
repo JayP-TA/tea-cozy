@@ -1,9 +1,9 @@
 html, body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
-    color: grey;
+    color: seashell;
     background-color: black;
-    opacity: 0.9;
+    opacity: 1;
     text-align: center;
 }
 
@@ -11,7 +11,8 @@ header {
     position: fixed;
     height: 69px;
     width: 100%;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
 }
 
 #logo {
@@ -31,5 +32,26 @@ li {
     text-decoration: underline;
 }
 
+#mission {
+    position: relative;
+    display: flex;
+    top: 69px;
+    width: 100%;
+    justify-content: center;
+}
+
+#mission-bg {
+    background-image: url("../images/img-mission-background.jpeg");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
 
 
